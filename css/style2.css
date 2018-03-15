@@ -28,7 +28,7 @@ section .about span a {
      text-decoration: none; 
      margin-right: 5%;  
      margin-top: 1%;
-     back          
+
 }
 
 section .about span a:hover{
@@ -110,6 +110,7 @@ section .more a:hover{
             text-decoration: none;
             height: auto;
             display: inline-block;
+            text-shadow: 1px 0 0 rgba(54, 56, 49, 0.34);
             
             
         }
@@ -248,16 +249,20 @@ section .more {
     padding: 0;
 }
 .infoprojetsup p{
-    display: none;
+    /*display: none;*/
 }
 .ijf p {
-    display: none;
+    /*display: none;*/
 }
 
 
 }
 @media(max-width:480px)
 {
+    .titre h2 a{
+        font-size: 1em;
+
+    }
 .item  h2{font-size:30px;}
 .item .carousel-desc p{width:100%;}
 }
